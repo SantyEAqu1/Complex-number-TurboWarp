@@ -1,4 +1,4 @@
-class HelloWorld {
+class ComplexScratch {
   getInfo() {
     return {
       id: 'complex',
@@ -18,4 +18,4 @@ class HelloWorld {
   }
 }
 
-Scratch.extensions.register(new HelloWorld());
+Scratch.extensions.register(new ComplexScratch());
