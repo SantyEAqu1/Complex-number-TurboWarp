@@ -18,4 +18,4 @@ class ComplexScratch {
   }
 }
 
-Scratch.extensions.register(new ComplexScratch());
+Scratch.extensions.register(new HelloWorld());
