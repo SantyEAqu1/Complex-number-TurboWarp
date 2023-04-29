@@ -5,7 +5,7 @@ class HelloWorld {
       name: 'Complex Scratch',
       blocks: [
         {
-          opcode: 'i',
+          opcode: 'imaginary',
           blockType: Scratch.BlockType.REPORTER,
           text: 'i'
         }
@@ -13,8 +13,8 @@ class HelloWorld {
     };
   }
 
-  i() {
-    return 'i!';
+  imaginary() {
+    return 'i';
   }
 }
 
