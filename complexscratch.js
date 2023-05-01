@@ -1432,14 +1432,14 @@ class ComplexScratch {
         {
           opcode: 'imaginary',
           blockType: Scratch.BlockType.REPORTER,
-          text: new Complex sqrt(-1)
+          text: 'i'
         }
       ]
     };
   }
 
   imaginary() {
-    return 'i';
+    return new Complex sqrt(-1);
   }
 }
 
